@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Toko Maju Jaya</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="icon.png" />
+  </head>
+  <body>
+    <header>
+      <h1>Toko Maju Jaya</h1>
+      <p>Belanja dengan mudah dan cepat!</p>
+    </header>
+
+    <main class="container">
+      <!-- PRODUK -->
+      <section class="product-section">
+        <h2 class="section-title">Produk Flash Sale!</h2>
+
+        <div class="grid">
+          <div class="card">
+            <img src="KOPI.png" alt="Kopi" />
+            <div class="body">
+              <div class="title">Kopi Bubuk 250g</div>
+              <div class="price">Rp 32.000</div>
+              <button class="btn" id="addCartKopi">Tambah ke Keranjang</button>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="ROTI.png" alt="Roti" />
+            <div class="body">
+              <div class="title">Roti Tawar</div>
+              <div class="price">Rp 12.000</div>
+              <button class="btn" id="addCartRoti">Tambah ke Keranjang</button>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="MINYAK.png" alt="Minyak" />
+            <div class="body">
+              <div class="title">Minyak Goreng 1L</div>
+              <div class="price">Rp 24.000</div>
+              <button class="btn" id="addCartMinyak">
+                Tambah ke Keranjang
+              </button>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="SUSU.png" alt="Susu" />
+            <div class="body">
+              <div class="title">Susu UHT 1L</div>
+              <div class="price">Rp 27.000</div>
+              <button class="btn" id="addCartSusu">Tambah ke Keranjang</button>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="INDOMIE.png" alt="Indomie" />
+            <div class="body">
+              <div class="title">Indomie Goreng</div>
+              <div class="price">Rp 3.500</div>
+              <button class="btn" id="addCartIndomie">
+                Tambah ke Keranjang
+              </button>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="GULA.png" alt="Gula Pasir" />
+            <div class="body">
+              <div class="title">Gula Pasir 1kg</div>
+              <div class="price">Rp 12.000</div>
+              <button class="btn" id="addCartGula">Tambah ke Keranjang</button>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="MOUSE.png" alt="Mouse" />
+            <div class="body">
+              <div class="title">Mouse Wireless</div>
+              <div class="price">Rp 75.000</div>
+              <button class="btn" id="addCartMouse">Tambah ke Keranjang</button>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="KEYBOARD.png" alt="Keyboard" />
+            <div class="body">
+              <div class="title">Keyboard Mechanical</div>
+              <div class="price">Rp 150.000</div>
+              <button class="btn" id="addCartKeyboard">
+                Tambah ke Keranjang
+              </button>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="HEADSET.png" alt="Headset" />
+            <div class="body">
+              <div class="title">Headset Gaming</div>
+              <div class="price">Rp 200.000</div>
+              <button class="btn" id="addCartHeadset">
+                Tambah ke Keranjang
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- KERANJANG -->
+      <section class="cart-section">
+        <div class="cart-header">
+          <h2>Keranjang Belanja</h2>
+          <button id="checkoutBtn" class="checkout-btn">Checkout</button>
+        </div>
+
+        <div id="cartItems" class="cart-items"></div>
+
+        <div class="cart-total">Total: <span id="cartTotal">Rp 0</span></div>
+      </section>
+    </main>
+
+    <footer>Berbelanja dengan mudah dan cepat di Toko Maju Jaya</footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
